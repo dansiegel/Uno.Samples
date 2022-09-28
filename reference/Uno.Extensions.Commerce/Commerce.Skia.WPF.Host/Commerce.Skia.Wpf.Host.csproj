@@ -6,9 +6,29 @@
 		<UseWPF>true</UseWPF>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Uno.WinUI.Skia.Wpf" Version="4.5.0-dev.562" />
-		<PackageReference Include="Uno.WinUI.RemoteControl" Version="4.5.0-dev.562" Condition="'$(Configuration)'=='Debug'" />
-		<PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="4.5.0-dev.562" />
+		<PackageReference Include="Uno.Extensions.Markup">
+			<Version>0.1.0-dev.48</Version>
+		</PackageReference>
+		<PackageReference Include="Uno.Extensions.Markup.Generators">
+			<Version>0.1.0-dev.48</Version>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Uno.Extensions.Navigation.Toolkit.WinUI.Markup">
+			<Version>0.1.0-dev.48</Version>
+		</PackageReference>
+		<PackageReference Include="Uno.Extensions.Reactive.WinUI.Markup">
+			<Version>0.1.0-dev.48</Version>
+		</PackageReference>
+		<PackageReference Include="Uno.Toolkit.WinUI.Material.Markup">
+			<Version>0.1.0-dev.48</Version>
+		</PackageReference>
+		<PackageReference Include="Uno.WinUI.Markup">
+			<Version>0.1.0-dev.48</Version>
+		</PackageReference>
+		<PackageReference Include="Uno.WinUI.Skia.Wpf" Version="4.5.9" />
+		<PackageReference Include="Uno.WinUI.RemoteControl" Version="4.5.9" Condition="'$(Configuration)'=='Debug'" />
+		<PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="4.5.9" />
 	</ItemGroup>
 	<ItemGroup>
 		<Content Include="Assets\Fonts\uno-fluentui-assets.ttf" />

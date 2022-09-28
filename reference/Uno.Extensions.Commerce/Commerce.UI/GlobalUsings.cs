@@ -1,4 +1,4 @@
-﻿//-:cnd:noEmit
+//-:cnd:noEmit
 global using System;
 global using System.Collections.Generic;
 global using System.Collections.Specialized;
@@ -24,6 +24,7 @@ global using Uno.Extensions.Localization;
 global using Uno.Extensions.Serialization;
 global using Uno.Extensions.Navigation.Toolkit;
 global using Uno.Extensions.Navigation.Regions;
+global using Uno.Extensions.Navigation.UI;
 global using Uno.Toolkit.UI;
 global using Commerce.Business;
 global using Commerce.Business.Models;
